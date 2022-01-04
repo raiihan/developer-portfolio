@@ -16,6 +16,7 @@ h2{
 
 .flexible-container{
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width{
@@ -49,11 +50,25 @@ h2{
     width: 40%;
     margin-left: 5%;
     margin-right: 5%;
-    padding: 10px;
+    padding: 20px;
     box-shadow: 10px 20px 40px gray;
 }
 .experience-area{
     background-image: url(images/exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+}
+#full-stack-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(purple, tomato);
+    border-image-slice: 1;
+}
+#baby-developer{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
 }
